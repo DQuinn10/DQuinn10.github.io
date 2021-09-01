@@ -1,55 +1,142 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Daniel Quinn - My Personal Site</title>
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="icon" href="favicon/favicon.ico">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Roboto+Mono:wght@300;400&family=Roboto:wght@100;300;400;500;700&family=Rubik:wght@300;400;500&family=Source+Serif+Pro:wght@300;400;600;700&display=swap" rel="stylesheet">
-  </head>
-  <body>
-    <div class="nav-menu-div">
-      <ul class="nav-menu-list">
-        <li class="menu-option-active"><a href="index.html" class="menu-option-text">Home</a></li>
-        <li class="menu-option"><a href="" class="menu-option-text">About Me</a></li>
-        <li class="menu-option"><a href="" class="menu-option-text">Work Experience</a></li>
-        <li class="menu-option"><a href="" class="menu-option-text">Projects</a></li>
-        <li class="menu-option"><a href="" class="menu-option-text">Skills</a></li>
-        <li class="menu-option"><a href="" class="menu-option-text">Contact Me</a></li>
-        <li class="menu-img"><img class="dq-logo-img" src="images/dq-logo.png" alt="DQ-logo-img"></li>
-      </ul>
-    </div>
-    <div class="start-page">
-      <div class="background-img">
-        <img class="lake-img" src="images/lake-1.jpg" alt="lake-img">
-        <div class="intro">
-          <h1 class="intro-heading-hello">Hello,</h1>
-          <h1 class="intro-heading-name">I'm Daniel.</h1>
-          <hr class="intro-line">
-          <h2 class="intro-welcome">I'm a software engineer.</h2>
-        </div>
-        <div class="learn-more">
-          <h3 class="scroll-down">scroll down to learn more</h2>
-          <img class="scroll-down-arrow" src="images/down-arrow.png" alt="scroll-down-arrow-img">
-        </div>
+
+<head>
+  <meta charset="utf-8">
+  <title>Daniel Quinn - My Personal Site</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="favicon/favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Roboto+Mono:wght@300;400&family=Roboto:wght@100;300;400;500;700&family=Rubik:wght@300;400;500&family=Source+Serif+Pro:wght@300;400;600;700&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <div class="nav-menu-div">
+    <ul class="nav-menu-list">
+      <li class="menu-option active"><a href="#home" class="menu-option-text">Home</a></li>
+      <li class="menu-option"><a href="#about-me" class="menu-option-text">About Me</a></li>
+      <li class="menu-option"><a href="#experience" class="menu-option-text">Experience</a></li>
+      <li class="menu-option"><a href="#projects" class="menu-option-text">Projects</a></li>
+      <li class="menu-option"><a href="#skills" class="menu-option-text">Skills</a></li>
+      <li class="menu-option"><a href="#contact-me" class="menu-option-text">Contact Me</a></li>
+      <li class="menu-logo"><img class="dq-logo-img" src="images/dq-logo.png" alt="DQ-logo-img"></li>
+    </ul>
+  </div>
+  <div id="home" class="start-page">
+    <div class="profile">
+      <img class="profile-img" src="images/profile-pic.jpg" alt="">
+      <div class="profile-top">
       </div>
     </div>
-    <div class="about-me">
-
+    <div class="intro">
+      <h1 class="intro-heading-hello">Hello,</h1>
+      <h1 class="intro-heading-name">I'm Daniel.</h1>
+      <h2 class="intro-welcome">I'm a support engineer at AWS.</h2>
     </div>
-    <div class="experience">
-
+    <div class="learn-more">
+      <h3 class="scroll-down">scroll down to learn more</h2>
+        <img class="scroll-down-arrow" src="images/down-arrow.png" alt="scroll-down-arrow-img">
     </div>
-    <div class="projects">
+  </div>
+  <div id="about-me">
+    <h2 class="about-me-heading">About Me</h2>
+    <p class="about-me-text">Hello there! My name is Daniel, and I just recently started a
+      new position at Amazon Web Services (AWS) as a Support Engineer. I work on the AWS Marketplace Managed
+      Catalog Operations team, enabling software sellers to publish their products on the AWS Marketplace.
+      <br> <br> Before this position, I worked at Fannie Mae as a Software Engineer, focusing on application
+      infrastruture, security, and IT operations and maintenance. While at Fannie Mae, I developed an
+      efficient process for managing operations, troubleshooting, and regular maintenance
+      that is crucial to success in IT &#8212; and the tech industry in general. <br><br> In 2020, I
+      graduated from the University of Notre Dame with a major in Computer Science. This gave me a good foundation of knowledge, but I am rapidly learning
+      more and expanding my skillset through my work, side projects, and individual learning. <br><br>This page
+      will be updated as I continue to grow as a professional, so stay tuned! In the meantime, feel free to
+      follow me on the below social media platforms: <br><br> </p>
+    <img class="about-me-linkedin" src="images/LinkedIn.png" alt="linkedin-logo-img">
+    <img class="about-me-instagram" src="images/Instagram.png" alt="Instagram-logo-img">
+    <img class="about-me-facebook" src="images/Facebook.png" alt="Facebook-logo-img">
+    <img class="about-me-github" src="images/Github.png" alt="Github-logo-img">
 
-    </div>
-    <div class="skills">
+  </div>
+  <div id="experience">
+    <h2 class="experience-heading">My Work Experience</h2>
+    <ul class="experience-text">
+      <li class="experience-item">
+        <div class="experience-aws">
+          <h3 class="experience-company">Amazon</h3>
+          <h4 class="experience-position">Support Engineer</h4>
+          <h5 class="experience-years">2021-present</h5>
+          <p class="experience-desc">I work on the AWS Marketplace MCO (Managed Catalog Operations) team,
+            working directly with our customers who are looking to sell their software
+            products on AWS Marketplace. A seller submits a request to publish their
+            product to the marketplace, my team picks it up, and we work on vetting,
+            cloning, validating, and editing the product to make it ready to be published, with
+            customer feedback through the whole process. Every product on AWS Marketplace
+            was published by my team. I hope to gain experience in understanding customer
+            needs, working efficiently to meet those needs, and utilizing AWS services to do so.</p>
+        </div>
+      </li>
+      <li class="experience-item">
+        <div class="experience-fm">
+          <h3 class="experience-company">Fannie Mae</h3>
+          <h4 class="experience-position">Software Engineer</h4>
+          <h5 class="experience-years">2020-2021</h5>
+          <p class="experience-desc">Fannie Mae uses a COTS (Commercial Off-The-Shelf) suite of software
+            products offered by SWIFT. to facilitate financial messaging with
+            banks and financial institutions. I was on a small team that was in charge
+            of designing the infrastructure behind this software to have high reliability,
+            security, and fault tolerance in an on-premises environment. Monitoring and
+            analytics saw a huge updgrade after I joined, as I implemented several monitoring
+            scripts, created an all-encompassing dashboard in Splunk, and created alerts to
+            lower our SLA on Production incidents. I gained valuable skills in system design,
+            operations, security, and maintenance, which were especially important with the
+            large amounts of cash and securities Fannie Mae moves through the SWIFT platform
+            to and from other banks every day. </p>
+        </div>
+      </li>
+      <li class="experience-item">
+        <div class="experience-metlife">
+          <h3 class="experience-company">MetLife</h3>
+          <h4 class="experience-position">Software Development Intern</h4>
+          <h5 class="experience-years">Summer 2019</h5>
+          <p class="experience-desc">I spent my 2019 summar as part of the MetLife
+            Technical University summer internship program, completing project work
+            for my immediate team, while also being part of an intern-only team project.
+            Within my immediate team, I used tools such as Hive tables, SQL, PySpark,
+            and Power BI to filter, format, and visualize big data to gain insights into
+            MetLife's reinsurance business. On my intern team, I led the team to design
+            an app and develop a business plan to help MetLife's effort to become carbon-neutral
+            by offering auto insurance discounts to MetLife customers who opt to carpool. The
+            app allowed coworkers and friends to coordinate carpooling opportunities,
+            pickup times, and drop-off locations, while linking with their insurance profile
+            to offer tiered discount rewards. </p>
+        </div>
+      </li>
+      <li class="experience-item">
+        <div class="experience-mercury">
+          <h3 class="experience-company">Mercury</h3>
+          <h4 class="experience-position">IT Intern</h4>
+          <h5 class="experience-years">Summer 2018</h5>
+          <p class="experience-desc">While interning at Mercury, I learned the basics
+          of HTML, CSS, and JavaScript, while using Java and Selnium to write programs
+          that automated actions on Mercury web pages for quality assurance and testing.
+          I used Selenium web drivers to automate how an end-user would interact with a
+          web page&#8212;to enter an auto insurance claim, for example&#8212;in order to ensure that
+          our web pages were responding to those interactions correctly and smoothly.</p>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="projects">
+    <h2 class="projects-heading">Projects</h2>
+  </div>
+  <div id="skills">
+    <h2 class="skills-heading">Skills</h2>
+  </div>
+  <div id="contact-me">
+    <h2 class="contact-me-heading">Contact Me</h2>
+  </div>
+</body>
 
-    </div>
-    <div class="contact-me">
-
-    </div>
-  </body>
 </html>
