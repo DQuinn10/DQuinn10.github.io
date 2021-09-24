@@ -51,7 +51,7 @@ h2 {
   font-size: 1.2rem;
   font-weight: 400;
   margin: 0;
-  padding: 20px;
+  padding: 30px;
   text-align: center;
   text-decoration: none;
 }
@@ -174,48 +174,49 @@ h2 {
 }
 
 .intro {
-  border-left-color: #16C79A;
-  border-left-style: solid;
-  border-left-style: solid;
-  border-left-width: 3px;
   height: 500px;
+  left: 25%;
   margin: auto;
-  padding-left: 8%;
+  padding-left: 0;
   position: absolute;
-  right: 15%;
   text-align: left;
-  top: 50%;
-  transform: translate(0%, -50%);
-  width: 550px;
+  top: 25%;
+  width: 1000px;
 }
 
 .intro-heading-hello {
   color: #19456B;
   font-family: 'Roboto', sans-serif;
-  font-size: 6rem;
+  font-size: 4rem;
   font-weight: 700;
   margin: auto;
   position: relative;
-  top: 50px;
 }
 
 .intro-heading-name {
-  color: #19456B;
+  color: #16C79A;
   font-family: 'Roboto', sans-serif;
   font-size: 6rem;
   font-weight: 700;
-  margin: 10px 10px auto 10px;
+  margin: 10px 10px auto 0;
   position: relative;
-  top: 50px;
 }
 
 .intro-welcome {
   color: #19456B;
   font-family: 'Roboto', sans-serif;
-  font-size: 3rem;
-  margin: 10px 10px 0px 10px;
+  font-size: 4rem;
+  margin: 10px 10px 50px 0;
   position: relative;
-  top: 80px;
+}
+
+.intro-desc {
+  color: #616161;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2rem;
+  margin: 10px 10px 0px 0;
+  position: relative;
+  width: 620px;
 }
 
 .learn-more {
