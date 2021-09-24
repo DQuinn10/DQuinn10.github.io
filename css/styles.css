@@ -430,7 +430,7 @@ h2 {
 #projects {
   margin: 0;
   background-color: #19456B;
-  height: 1100px;
+  height: 1400px;
   padding-top: 100px;
   width: 100%;
 }
@@ -464,7 +464,7 @@ h2 {
   left: 50%;
   list-style-type: none;
   margin: 0;
-  padding: 75px 50px 50px 50px;
+  padding: 0 50px 50px 50px;
   position: relative;
   transform: translate(-50%, 0%);
   width: 1000px;
@@ -472,33 +472,39 @@ h2 {
 
 .project-item {
   padding: 0;
-  margin: 20px;
-  position: relative;
+  margin: 100px 20px 150px 20px;
 }
 
 .project-world {
   text-align: left;
-  position: absolute;
-  left: 0;
-  top: 0;
+  position: relative;
+  width: 1000px;
+  height: 238px;
+  margin: 0;
 }
 
 .project-nd-redesign {
   text-align: right;
-  position: absolute;
-  right: 0;
-  top: 230px;
+  position: relative;
+  width: 1000px;
+  height: 280px;
+  margin: 0;
 }
 
 .project-mlb-ss {
   text-align: left;
-  position: absolute;
-  left: 0;
-  top: 502px;
+  position: relative;
+  width: 1000px;
+  height: 262px;
+  margin: 0;
 }
 
 .project-preview {
-
+  width: 500px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 12px #00000050;
+  z-index: -1;
+  position: absolute;
 }
 
 .project-title {
@@ -514,25 +520,33 @@ h2 {
   border-width: 3px;
   border-color: #16C79A;
   border-radius: 10px;
+  box-shadow: 3px 3px 8px #00000050;
   color: #616161;
   font-family: 'Rubik', sans-serif;
   line-height: 1.4;
   margin: 0;
   padding: 20px;
-  width: 500px;
+  position: absolute;
+  width: 600px;
 }
 
 .project-tech {
   border: 0;
-  float: left;
   margin: 0;
   overflow: hidden;
   padding: 0;
-  text-align: left;
+  position: absolute;
+  bottom: 20px;
 }
 
-.float-right {
-  float: right;
+.right {
+  text-align: right;
+  right: 0;
+}
+
+.left {
+  text-align: left;
+  left: 0;
 }
 
 .project-tech-item {
