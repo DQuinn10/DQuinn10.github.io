@@ -522,6 +522,7 @@ p {
 
 .project-desc {
   color: #FFFFFF;
+  background-color: #00000080;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   font-size: 1rem;
